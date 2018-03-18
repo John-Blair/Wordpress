@@ -1,0 +1,73 @@
+﻿.breadcrumb {
+    
+    background-color: #313F50;
+    
+}
+
+.breadcrumb>.active {
+    color: #fff;
+}
+
+
+/* Accordion overrides */
+
+/* Make the whole accordion title clickable - hide the face it is a link.*/
+.fec-accordion a.accordion-toggle{
+       display: block;
+       text-decoration:none;
+}
+
+.fec-accordion a.accordion-toggle:hover{
+       color: #00BC8C;
+}
+
+.fec-accordion .panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    content: "-";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+}
+.fec-accordion .panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "+";    /* adjust as needed, taken from bootstrap.css */
+}
+
+/* Remove excessive space at the start of an accordion panel */
+.fec-accordion .panel-body{
+    padding-top:0px;
+}
+
+.fec-accordion  .panel-default>.panel-heading {
+    color: #fff;
+    background-color:#354050;
+    border-color:#354050;
+}
+
+/* Tighten up the space between panels - just leave the border */
+.fec-accordion.panel-group .panel + .panel {
+    margin-top:0px;
+}
+
+
+/* Tabs */
+.nav-tabs.fec-nav-tabs>li.active>a, .nav-tabs.fec-nav-tabs>li.active>a:hover, .nav-tabs.fec-nav-tabs>li.active>a:focus {
+    color: #fff;
+    background-color: #354050;
+   
+}
+
+.nav-tabs.fec-nav-tabs>li>a {
+    line-height: 16px;
+}
+
+.custom-tab-content.tab-content{
+    padding-left: 15px;
+}
+
+
+.n2-ss-button-container > a {
+border-color:#18bc9c !important;
+}
+
+
+/*18bc9c */

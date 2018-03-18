@@ -1,0 +1,11 @@
+﻿/*
+Theme Name: FEC
+Theme URI: http://pluralsight.com/training/TableOfContents/wordpress-theme-framework-bootstrap3
+Description: A child theme of Museum Core
+Version: 1.0
+Author: John Blair
+Author URI: 
+Template: museum-core
+*/
+
+@import url( '../museum-core/style.css' );

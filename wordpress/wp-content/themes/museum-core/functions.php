@@ -76,8 +76,8 @@ if (!function_exists('ap_core_load_scripts')) {
         // this loads jquery (for bootstrap, among other things)
         wp_enqueue_script('jquery');
         // load boostrap
-        wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array( 'jquery' ), '3.0.0', true );
-        wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css', false, '3.0.0' );
+        wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array( 'jquery' ), '3.3.7', true );
+        wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css', false, '3.3.7' );
         // loads modernizr for BPH5
         wp_register_script('modernizr',get_template_directory_uri() . '/assets/js/modernizr-2.5.3.min.js',false,'2.5.3');
         wp_enqueue_script('modernizr');
@@ -1102,8 +1102,4 @@ if ( !function_exists( 'ap_core_archive_excerpts' ) ) {
         return $excerpt;
     }
 }
-/**
- * JBL
- */
-include 'superhero.php'
 ?>
