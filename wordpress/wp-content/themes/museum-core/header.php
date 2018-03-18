@@ -107,7 +107,7 @@
 				</div>
 			<?php } ?>
 
-			<?php wp_nav_menu( array( 'container' => 'nav', 'container_class' => 'mainnav navbar navbar-default collapse navbar-collapse navbar-2-collapse', 'theme_location' => 'main', 'fallback_cb' => false, 'menu_class' => 'nav navbar-nav', 'walker' => new AP_Core_WP_Bootstrap_Navwalker() ) ); ?>
+			<?php wp_nav_menu( array( 'container' => 'nav', 'container_class' => 'mainnav collapse navbar-collapse navbar-2-collapse', 'theme_location' => 'main', 'fallback_cb' => false, 'menu_class' => 'nav navbar-nav', 'walker' => new AP_Core_WP_Bootstrap_Navwalker() ) ); ?>
 			<?php tha_header_bottom(); ?>
 		</header>
 		<?php tha_header_after(); ?>
